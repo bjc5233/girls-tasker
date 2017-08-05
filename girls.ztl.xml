@@ -1,0 +1,31 @@
+<class name="Template" index="">
+	<backColour>#00000000</backColour>
+	<borderColour>#FFFFFFFF</borderColour>
+	<borderWidth>0</borderWidth>
+	<cellData>240,300,0,0;318,222,0,0</cellData>
+	<cellsHigh>1</cellsHigh>
+	<cellsWide>1</cellsWide>
+	<marginWidth>0</marginWidth>
+	<name>girls</name>
+	<class name="Element" index="elements0">
+		<elementType>Image</elementType>
+		<heightLand>111</heightLand>
+		<heightPort>150</heightPort>
+		<name>girl</name>
+		<visible>true</visible>
+		<widthLand>159</widthLand>
+		<widthPort>120</widthPort>
+		<xLand>159</xLand>
+		<xPort>62</xPort>
+		<yLand>104</yLand>
+		<yPort>94</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<uri>content://media/external/images/media/1487399</uri>
+			<class name="TaskAction" index="onClick0">
+				<name>girls</name>
+			</class>
+		</class>
+	</class>
+</class>
