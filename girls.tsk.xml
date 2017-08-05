@@ -1,0 +1,154 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<Task sr="task13">
+		<cdate>1483667888160</cdate>
+		<edate>1501907986237</edate>
+		<id>13</id>
+		<nme>girls</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">girlsfile</Str>
+			<Str sr="arg1" ve="3">File</Str>
+			<Str sr="arg2" ve="3">new
+{File} (String)</Str>
+			<Str sr="arg3" ve="3">/storage/sdcard1/girls</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">files</Str>
+			<Str sr="arg1" ve="3">girlsfile</Str>
+			<Str sr="arg2" ve="3">listFiles
+{File[]} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>761</code>
+			<Str sr="arg0" ve="3">girls.w / girl</Str>
+			<Str sr="arg1" ve="3">content://media/external/images/media/%girlid</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">random</Str>
+			<Str sr="arg1" ve="3">Random</Str>
+			<Str sr="arg2" ve="3">new
+{Random} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%girlindex</Str>
+			<Str sr="arg1" ve="3">random</Str>
+			<Str sr="arg2" ve="3">nextInt
+{int} (int)</Str>
+			<Str sr="arg3" ve="3">files.length</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%girlpath</Str>
+			<Str sr="arg1" ve="3">files[%girlindex]</Str>
+			<Str sr="arg2" ve="3">getPath
+{String} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">uri</Str>
+			<Str sr="arg1" ve="3">Uri</Str>
+			<Str sr="arg2" ve="3">parse
+{Uri} (String)</Str>
+			<Str sr="arg3" ve="3">content://media/external/images/media/</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">cr</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getContentResolver
+{ContentResolver} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">crs</Str>
+			<Str sr="arg1" ve="3">cr</Str>
+			<Str sr="arg2" ve="3">query
+{Cursor} (Uri, String[], String, String[], String)</Str>
+			<Str sr="arg3" ve="3">uri</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">_data = "%girlpath"</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">crs</Str>
+			<Str sr="arg2" ve="3">moveToFirst
+{boolean} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%girlid</Str>
+			<Str sr="arg1" ve="3">crs</Str>
+			<Str sr="arg2" ve="3">getString
+{String} (int)</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>
