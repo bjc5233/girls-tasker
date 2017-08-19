@@ -1,14 +1,15 @@
 # girls-tasker
 
 
-## Àµ√˜
-‘⁄◊¿√Ê–°π§æﬂ÷–’π æ“ª∏ˆ√»ƒÔ£®ªÚ’ﬂ∆‰À˚µƒÕº∆¨£©£¨√ø¥Œµ„ª˜∏¸ªªÕº∆¨
-* ∞≤◊∞tasker£¨“‘º∞≤Âº˛zoom
-* µº»ÎtaskerœÓƒøgirls.tsk.xml
-* –ﬁ∏ƒÕº∆¨Œƒº˛º–¬∑æ∂
-* µº»ÎzoomœÓƒøgirls.ztl.xml£¨≤¢‘⁄◊¿√ÊÃÌº”–°π§æﬂ
+## ËØ¥Êòé
+Âú®Ê°åÈù¢Â∞èÂ∑•ÂÖ∑‰∏≠Â±ïÁ§∫‰∏Ä‰∏™ËêåÂ®òÔºàÊàñËÄÖÂÖ∂‰ªñÁöÑÂõæÁâáÔºâÔºåÊØèÊ¨°ÁÇπÂáªÊõ¥Êç¢ÂõæÁâá
+* ÂÆâË£ÖtaskerÔºå‰ª•ÂèäÊèí‰ª∂zoom
+* ÂØºÂÖ•taskerÈ°πÁõÆgirls.tsk.xml
+* ‰øÆÊîπÂõæÁâáÊñá‰ª∂Â§πË∑ØÂæÑ
+* ÂØºÂÖ•zoomÈ°πÁõÆgirls.ztl.xmlÔºåÂπ∂Âú®Ê°åÈù¢Ê∑ªÂä†Â∞èÂ∑•ÂÖ∑
+* ‰∏∫‰∫ÜtaskerËÉΩÊé•ÂèóÊù•Ëá™zoomÂ∞èÂ∑•ÂÖ∑ÁöÑËØ∑Ê±ÇÔºåÈúÄË¶ÅÈÖçÁΩÆtasker->preferences->MISC->Allow External Access
 
-## ‘§¿¿
+## È¢ÑËßà
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/girls-tasker/raw/master/resources/Screenshot_2017-07-24-10-07-52-991.png"/></div>
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/girls-tasker/raw/master/resources/Screenshot_2017-07-26-09-17-45-852.png"/></div>
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/girls-tasker/raw/master/resources/Screenshot_2017-07-27-09-53-12-736.png"/></div>
