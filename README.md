@@ -10,6 +10,6 @@
 * 为了tasker能接受来自zoom小工具的请求，需要配置tasker->preferences->MISC->Allow External Access
 
 ## 预览
-<div align=center><img height="960" width="540" src="https://github.com/bjc5233/girls-tasker/raw/master/resources/Screenshot_2017-07-24-10-07-52-991.png"/></div>
-<div align=center><img height="960" width="540" src="https://github.com/bjc5233/girls-tasker/raw/master/resources/Screenshot_2017-07-26-09-17-45-852.png"/></div>
-<div align=center><img height="960" width="540" src="https://github.com/bjc5233/girls-tasker/raw/master/resources/Screenshot_2017-07-27-09-53-12-736.png"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-girls/raw/master/resources/Screenshot_2017-07-24-10-07-52-991.png"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-girls/raw/master/resources/Screenshot_2017-07-26-09-17-45-852.png"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-girls/raw/master/resources/Screenshot_2017-07-27-09-53-12-736.png"/></div>
